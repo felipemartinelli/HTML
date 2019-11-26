@@ -1,0 +1,18 @@
+.cont2{
+    background-color: green;
+ }
+
+ .cont1{
+    background-color:yellow;
+ }
+
+.cont3{
+    background-color: antiquewhite;
+ }
+ .row{
+     text-align: center;
+     height: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     
+ }
