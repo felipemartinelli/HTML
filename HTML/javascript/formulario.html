@@ -1,0 +1,44 @@
+<html>
+
+    <head>
+        <title>Formulario de Cadastro</title>
+    </head>
+
+        <body>
+
+            <h1>Conecte-se</h1>
+            <hr/>
+            
+               Seu Email
+               <input type="text" id="email"/>
+               <br><br>
+               Sua Senha
+               <input type="password" id="password" />
+               <button onclick="valida()">Conectar</button>
+
+               <div id="resultado">
+
+               </div>
+             
+
+            <script>
+                function valida(){
+                var email = document.getElementById("email").value;
+                var senha = document.getElementById("password").value;
+
+                if(email === "gen@generation.org" && senha === "generation")
+                {
+                    document.getElementById("resultado").innerHTML = "Conectado!";
+                }
+                else{
+                    document.getElementById("resultado").innerHTML = "Usuario/Senha Invalidos";
+
+                }
+
+
+                console.log("Email Digitado: "+email);
+                console.log("Senha Digitado: "+senha);
+                }
+            </script>
+        </body>
+</html>
