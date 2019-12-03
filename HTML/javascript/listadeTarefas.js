@@ -9,7 +9,7 @@ function inserirNovo(){
 
     var textoGerado = "";
 
-    textoGerado = "<div class='input-group mb-3' id='divResultado'><div class='input-group-prepend'><div class='input-group-text'><input type='checkbox' onclick='verificarCheck(this,"+i+");'></div></div><input type='text' class='form-control' id='campo"+i+"'zaztexto+"></div>";
+    textoGerado = "<div class='input-group mb-3' id='divResultado'><div class='input-group-prepend'><div class='input-group-text'><input type='checkbox' onclick='verificarCheck(this,"+i+");'></div></div><input type='text' class='form-control' id='campo"+i+"'value='"+texto+"'></div>";
 
     document.getElementById("divResultado").innerHTML += textoGerado; 
 
