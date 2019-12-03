@@ -1,0 +1,30 @@
+#pending{
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#doing{
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    height: 200px;
+
+}
+
+#done{
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    height: 200px;
+}

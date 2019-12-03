@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="dragDrop.css">
+        <script src="dragDrop.js"></script>
+
+    </head>
+    <body>
+        <div id="pending">
+            <div draggable="true" class="arrastavel" ondragstart="levaPrala(event);" id="a1">Atividade 1</div>
+            <div draggable="true" class="arrastavel" ondragstart="levaPrala(event);" id="a2">Atividade 2</div>
+            <div draggable="true" class="arrastavel" ondragstart="levaPrala(event);" id="a3">Atividade 3</div>
+            <div draggable="true" class="arrastavel" ondragstart="levaPrala(event);" id="a4">Atividade 4</div>
+            <div draggable="true" class="arrastavel" ondragstart="levaPrala(event);" id="a5">Atividade 5</div>
+            <div draggable="true" class="arrastavel" ondragstart="levaPrala(event);" id="a6">Atividade 6</div>
+            <div draggable="true" class="arrastavel" ondragstart="levaPrala(event);" id="a7">Atividade 7</div>
+        </div>
+
+        <div id="doing" ondrop="recebeu(event);" ondragover="permiteReceber(event);">
+
+        </div>
+
+        <div id="done" ondrop="recebeu(event);" ondragover="permiteReceber(event);">
+
+        </div>
+    </body>
+</html>
