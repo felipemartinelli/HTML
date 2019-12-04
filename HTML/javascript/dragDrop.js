@@ -1,6 +1,6 @@
 function levaPrala(event){
     event.dataTransfer.setData("text", event.target.id);
-
+    
 }
 
 function recebeu(event){
